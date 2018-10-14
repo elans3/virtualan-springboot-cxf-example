@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>io.virtualan</groupId>
 			<artifactId>virtualan-plugin</artifactId>
-			<version>1.0.0</version>
+			<version>1.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hsqldb</groupId>
@@ -83,20 +83,4 @@
 
 
 
-
-
-
-<!-- <dependency> <groupId>org.eclipse.jetty</groupId> <artifactId>jetty-server</artifactId> 
-	<version>${org.eclipse.jetty.version}</version> </dependency> <dependency> 
-	<groupId>org.eclipse.jetty</groupId> <artifactId>apache-jsp</artifactId> 
-	<version>${org.eclipse.jetty.version}</version> </dependency> <dependency> 
-	<groupId>org.eclipse.jetty</groupId> <artifactId>jetty-plus</artifactId> 
-	<version>${org.eclipse.jetty.version}</version> </dependency> <dependency> 
-	<groupId>org.eclipse.jetty</groupId> <artifactId>jetty-jndi</artifactId> 
-	<version>${org.eclipse.jetty.version}</version> </dependency> <dependency> 
-	<groupId>org.eclipse.jetty</groupId> <artifactId>jetty-webapp</artifactId> 
-	<version>${org.eclipse.jetty.version}</version> </dependency> -->
-
-<!-- <dependency> <groupId>io.virtualan</groupId> <artifactId>virtualan-plugin</artifactId> 
-	<version>1.0.0</version> </dependency> -->
 
