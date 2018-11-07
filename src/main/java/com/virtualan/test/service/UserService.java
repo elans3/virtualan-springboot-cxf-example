@@ -5,6 +5,7 @@ import java.util.Collections;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -30,5 +31,15 @@ public class UserService {
     @Produces({MediaType.APPLICATION_JSON})
     public Collection<User> getUser() {
         return Collections.singletonList(new User("elan.thangmani@virtualan.io", "Elan", "Thangamani"));
+    }
+	
+	
+	
+	@Path("/users/{id}")
+    @GET
+    @ApiVirtual
+    @Produces({MediaType.APPLICATION_JSON})
+    public User getUserbyId(@PathParam("id") int id) {
+        return null;
     }
 }
